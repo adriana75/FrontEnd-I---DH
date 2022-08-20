@@ -4,40 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/f2f0492e67.js" crossorigin="anonymous"></script>
     <title>Petshop</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="menu-sup">
+            <h3>Grandes ofertas en comederos</h3>
             <ul>
-                <li>Grandes ofertas en comederos</li>
-                <ul>
-                    <li>Español</li>
-                    <li>ARG$</li>
-                </ul>
+                <li>Español <i class="fa-solid fa-angle-down"></i></li>
+                <li>ARG$ <i class="fa-solid fa-angle-down"></i></li>
             </ul>
         </nav>
-        <img src="" alt="logotipo">
-        <nav>
+        <nav id="menu-inf">
+            <img src="./img/Logotipo.png" alt="logotipo">
             <ul>
-                <li>Categorías</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contáctanos</li>
+                <li><i class="fa-solid fa-paw"></i> Categorías</li>
+                <li><i class="fa-solid fa-paw"></i> Pets</li>
+                <li><i class="fa-solid fa-paw"></i> Nosotros</li>
+                <li><i class="fa-solid fa-paw"></i> Contáctanos</li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="background">
+        <section class="informacion-banner">
+            <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="background" id="banner">
             <p>¡Es un placer tenerte aquí!</p>
             <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
+            <button id="buttom-comederos">COMEDEROS</button>
         </section>
         <section>
-            <img src="" alt="patita">
+            <i class="fa-solid fa-paw" id="patita"></i>
             <h1>Productos destacados</h1>
-            <ul>
+            <ul id="menu-body">
                 <li>Comederos</li>
                 <li>Accesorios</li>
                 <li>Comida</li>
@@ -46,17 +49,17 @@
         <section>
             <article>
                 <img src="./img/churrasquito.png" alt="producto 1">
-                <p>Juguete Churrasquito</p>
+                <h2>Juguete Churrasquito</h2>
                 <p>$150</p>
             </article>
             <article>
                 <img src="./img/comedero.png" alt="producto 2">
-                <p>Comedero para perro</p>
+                <h2>Comedero para perro</h2>
                 <p>$150</p>
             </article>
             <article>
                 <img src="./img/Huesito.png" alt="producto 3">
-                <p>Juguete Huesito</p>
+                <h2>Juguete Huesito</h2>
                 <p>$150</p>
             </article>
         </section>
@@ -66,28 +69,32 @@
                 <input type="text" value="Nombre y Apellido">
                 <input type="text" value="Ingresa tu correo electrónico">
                 <input type="text" value="Teléfono">
-                <button type="submit">Resetear</button>
-                <button type="submit">Enviar</button>
+                <button type="submit" id="buttom-resetear">Resetear</button>
+                <button type="submit" id="buttom-enviar">Enviar</button>
             </form>
         </section>
-        <section>
+        <section class="suscribirme">
             <p>Suscríbete para más novedades</p>
             <form>
-                <input type="text">
-                <button>Suscribirme</button>
+                <input type="text" id="suscribirme" value="Ingresá tu correo electronico">
+                <button id="buttom-suscribirme">Suscribirme</button>
             </form>
         </section>
-        <section>
+        <section class="ubicacion">
             <ul>
-                <li>Localidad</li>
-                <li>Teléfono</li>
-                <li>Correo Electrónico</li>
+                <li><i class="fa-solid fa-location-dot"></i> Localidad</li>
+                <li><i class="fa-solid fa-phone"></i> Teléfono</li>
+                <li><i class="fa-solid fa-envelope-circle-check"></i> Correo Electrónico</li>
             </ul>
-            <img src="" alt="logotipo">
+            <img src="./img/Logotipo.png" alt="logotipo">
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <h4>Todos los derechos reservados Front End</h4>
+        <ul>
+            <li><a href="https://www.instagram.com/adrianaps75/" target="_blank"><i class="fa-brands fa-instagram"></i> </a></li>
+            <li><a href="https://www.linkedin.com/in/adriana-paredes-salinas-556279104/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></i></li>
+        </ul>
     </footer>
 </body>
 </html>

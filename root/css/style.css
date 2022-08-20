@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;    
+}
+
+#menu-sup{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#menu-sup h3{
+    font-size: 140%;
+    margin: 10px 0 0 90px;
+}
+
+#menu-sup ul{
+    font-size: 120%;
+    margin: 10px 50px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+}
+
+#menu-inf {
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 50px;
+    padding: 20px 0 0 45px; 
+    width: 220px;
+}
+
+#menu-inf ul {
+    font-size: 160%;
+    margin: 30px 50px 0 0;
+}
+
+#menu-inf ul li {
+    color: white;
+    padding-left: 40px;
+}
+
+#banner { 
+    background-size: contain;
+    min-width: 1024px;
+    width: 100%;
+}
+
+h1 {
+    color: #3C2313;
+    font-size: 300%;
+    text-align: center;
+}
+
+#menu-body {
+    color: #666666;
+}
+
+h2 {
+    color: #3C2313;
+}
+
+form input, #buttom-suscribirme, .ubicacion {
+    background-color: #3C2313;
+    color: #fff;
+}
+
+#buttom-resetear {
+    background-color: #8A8787;
+    color: #fff;
+}
+
+#buttom-comederos, #buttom-enviar, .suscribirme {
+    background-color: #F0A83E;
+    color: #fff;
+}
+
+#patita, p {
+    color: #F0A83E;
+}
+
+#suscribirme {
+    background-color: #fff;
+    color: #A0A0A0;
+}
+
+.ubicacion {
+    padding-bottom: 100px;
+}
+
+a:link, a:visited, a:active{
+    color: #fff;
+    text-decoration: none;    
+}
+
+footer {
+    background-color: #F0A83E;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0%;
+}
+
+footer ul li {
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+
+
