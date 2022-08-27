@@ -9,51 +9,43 @@ html {
     height: 100%;    
 }
 
-#menu-sup{
+#nav-menu-superior{
+    align-items: center;
     background-color: black;
     color: white;
     display: flex;
-    flex-direction: row;
     height: 50px;
     justify-content: space-between;
 }
 
-#menu-sup h3{
+#nav-menu-superior h3{
     font-size: 140%;
-    margin: 10px 0 0 90px;
 }
 
-#menu-sup ul{
+#nav-menu-superior ul{
+    display: flex;
     font-size: 120%;
-    margin: 10px 50px 0 0;
 }
 
 nav ul li {
-    display: inline-block;
     list-style: none;
     padding-left: 10px;
 }
 
-#menu-inf {
+#nav-menu-inferior {
+    align-items: center;
     background-color: #F0A83E;
     display: flex;
-    flex-direction: row;
     height: 80px;
     justify-content: space-between;
 }
 
-nav img {
-    height: 50px;
-    padding: 20px 0 0 45px; 
-    width: 220px;
-}
-
-#menu-inf ul {
+#nav-menu-inferior ul {
+    display: flex;
     font-size: 160%;
-    margin: 30px 50px 0 0;
 }
 
-#menu-inf ul li {
+#nav-menu-inferior ul li {
     color: white;
     padding-left: 40px;
 }
@@ -64,37 +56,121 @@ nav img {
     width: 100%;
 }
 
+.informacion-banner {
+    position: relative;
+}
+
+.informacion-banner div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    position: absolute;
+    right: 100px;
+    top: 400px;
+}
+
+#buttom-comederos {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    height: 49px;
+    width: 141px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     color: #3C2313;
     font-size: 300%;
-    text-align: center;
 }
 
-#menu-body {
+.productos-destacados {
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+}
+
+#menu-productos-destacados {
     color: #666666;
+    display: flex;
 }
 
 h2 {
     color: #3C2313;
+    text-align: center;
 }
 
-form input, #buttom-suscribirme, .ubicacion {
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.contactanos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contactanos {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+
+.form-contactanos input {
+    height: 40px;
+    width: 340px;
+}
+
+form input, #buttom-suscribirme {
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.ubicacion {
     background-color: #3C2313;
     color: #fff;
 }
 
 #buttom-resetear {
     background-color: #8A8787;
+    border-radius: 15px;
+    border-style: none;
     color: #fff;
+    height: 34px;
+    width: 110px;
 }
 
-#buttom-comederos, #buttom-enviar, .suscribirme {
+#buttom-enviar {
+    background-color: #F0A83E;
+    border-radius: 15px;
+    border-style: none;
+    color: #fff;
+    height: 34px;
+    width: 110px;
+}
+
+#form-contactanos-btn-contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.suscribirme {
     background-color: #F0A83E;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
 }
 
-#patita, p {
+#patita, .cards p {
     color: #F0A83E;
+    text-align: center;
 }
 
 #suscribirme {
@@ -103,7 +179,9 @@ form input, #buttom-suscribirme, .ubicacion {
 }
 
 .ubicacion {
-    padding-bottom: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 a:link, a:visited, a:active{
@@ -112,16 +190,15 @@ a:link, a:visited, a:active{
 }
 
 footer {
-    background-color: #F0A83E;
+    background-color: #222222;
     color: #fff;
-    position: fixed;
     bottom: 0;
     text-align: center;
-    width: 100%;
 }
 
 footer ul {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     list-style: none;
     padding: 0%;
 }

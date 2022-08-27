@@ -13,15 +13,17 @@
 </head>
 <body>
     <header>
-        <nav id="menu-sup">
+        <nav id="nav-menu-superior">
             <h3>Grandes ofertas en comederos</h3>
             <ul>
                 <li>Español <i class="fa-solid fa-angle-down"></i></li>
                 <li>ARG$ <i class="fa-solid fa-angle-down"></i></li>
             </ul>
         </nav>
-        <nav id="menu-inf">
-            <img src="./img/Logotipo.png" alt="logotipo">
+        <nav id="nav-menu-inferior">
+            <div>
+                <img src="./img/Logotipo.png" alt="logotipo">
+            </div>
             <ul>
                 <li><i class="fa-solid fa-paw"></i> Categorías</li>
                 <li><i class="fa-solid fa-paw"></i> Pets</li>
@@ -33,20 +35,22 @@
     <main>
         <section class="informacion-banner">
             <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="background" id="banner">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <button id="buttom-comederos">COMEDEROS</button>
+            <div>
+                <p>¡Es un placer tenerte aquí!</p>
+                <p>¡Comederos en descuento!</p>
+                <button id="buttom-comederos">COMEDEROS</button>
+            </div>
         </section>
-        <section>
+        <section class="productos-destacados">
             <i class="fa-solid fa-paw" id="patita"></i>
             <h1>Productos destacados</h1>
-            <ul id="menu-body">
+            <ul id="menu-productos-destacados">
                 <li>Comederos</li>
                 <li>Accesorios</li>
                 <li>Comida</li>
             </ul>
         </section>
-        <section>
+        <section class="cards">
             <article>
                 <img src="./img/churrasquito.png" alt="producto 1">
                 <h2>Juguete Churrasquito</h2>
@@ -63,18 +67,20 @@
                 <p>$150</p>
             </article>
         </section>
-        <section>
+        <section class="contactanos">
             <h2>Contáctanos</h2>
-            <form>
+            <form class="form-contactanos">
                 <input type="text" value="Nombre y Apellido">
                 <input type="text" value="Ingresa tu correo electrónico">
                 <input type="text" value="Teléfono">
-                <button type="submit" id="buttom-resetear">Resetear</button>
-                <button type="submit" id="buttom-enviar">Enviar</button>
+                <div id="form-contactanos-btn-contenedor">
+                    <button type="submit" id="buttom-resetear">Resetear</button>
+                    <button type="submit" id="buttom-enviar">Enviar</button>
+                </div>
             </form>
         </section>
         <section class="suscribirme">
-            <p>Suscríbete para más novedades</p>
+            <p><i class="fa-solid fa-envelopes-bulk"></i>Suscríbete para más novedades</p>
             <form>
                 <input type="text" id="suscribirme" value="Ingresá tu correo electronico">
                 <button id="buttom-suscribirme">Suscribirme</button>
@@ -86,7 +92,9 @@
                 <li><i class="fa-solid fa-phone"></i> Teléfono</li>
                 <li><i class="fa-solid fa-envelope-circle-check"></i> Correo Electrónico</li>
             </ul>
-            <img src="./img/Logotipo.png" alt="logotipo">
+            <div>
+                <img src="./img/Logologo-claro.png" alt="logotipo">
+            </div>
         </section>
     </main>
     <footer>
