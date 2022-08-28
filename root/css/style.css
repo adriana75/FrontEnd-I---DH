@@ -148,9 +148,16 @@ h1 {
     width: 526px;
 }
 
-.cards h2, .cards p {
+.cards h2 {
     font-size: 150%;
     padding: 5px;
+}
+
+.cards p {
+    color: #F0A83E;
+    font-size: 150%;
+    padding: 5px;
+    text-align: center;
 }
 
 .contactanos {
@@ -182,9 +189,9 @@ h2 {
     width: 600px;
 }
 
-form input, #buttom-suscribirme {
+form input {
     background-color: #3C2313;
-    border-radius: 15px;
+    border-radius: 30px;
     color: #fff;
 }
 
@@ -195,9 +202,9 @@ form input, #buttom-suscribirme {
     width: 320px;
 }
 
-#buttom-resetear {
+#btn-resetear {
     background-color: #8A8787;
-    border-radius: 15px;
+    border-radius: 30px;
     border-style: none;
     color: #fff;
     font-size: 120%;
@@ -205,9 +212,9 @@ form input, #buttom-suscribirme {
     width: 120px;
 }
 
-#buttom-enviar {
+#btn-enviar {
     background-color: #F0A83E;
-    border-radius: 15px;
+    border-radius: 30px;
     border-style: none;
     color: #fff;
     font-size: 120%;
@@ -222,17 +229,29 @@ form input, #buttom-suscribirme {
     display: flex;
     height: 80px;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 50px;
 }
 
-.cards p {
-    color: #F0A83E;
-    text-align: center;
+.suscribirme p {
+    font-size: 200%;
 }
 
 #suscribirme {
     background-color: #fff;
     color: #A0A0A0;
+    font-size: 120%;
+    height: 60px;
+    padding-left: 10px;
+    width: 550px;
+}
+
+#btn-suscribirme {
+    background-color: #3C2313;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 120%;
+    height: 55px;
+    width: 150px;
 }
 
 .ubicacion {
@@ -240,7 +259,9 @@ form input, #buttom-suscribirme {
     background-color: #3C2313;
     color: #fff;
     display: flex;
+    height: 300px;
     justify-content: space-between;
+    padding: 0 100px;
 }
 
 a:link, a:visited, a:active{
