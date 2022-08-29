@@ -23,14 +23,21 @@ html {
     font-size: 140%;
 }
 
-#nav-menu-superior ul{
-    display: flex;
-    font-size: 120%;
+select {
+    background: transparent;
+    border: 1px solid black;
+    color: #F3F3F3;
+    font-size: 140%;   
 }
 
-nav ul li {
-    list-style: none;
-    padding-left: 10px;
+option {
+    background-color: #F3F3F3;
+    color: black;
+}
+
+.logotipo img {
+    height: 30px;
+    width: 200px;
 }
 
 #nav-menu-inferior {
@@ -49,6 +56,7 @@ nav ul li {
 
 #nav-menu-inferior ul li {
     color: white;
+    list-style: none;
     padding-left: 40px;
 }
 
@@ -71,7 +79,7 @@ nav ul li {
     top: 400px;
 }
 
-.informacion-banner div p:nth-child(1){
+.informacion-banner div p:first-child{
     background-color: #fff;
     border-radius: 5px;
     color: #3C2313;
@@ -238,6 +246,7 @@ form input {
 
 #suscribirme {
     background-color: #fff;
+    border-style: none;
     color: #A0A0A0;
     font-size: 120%;
     height: 60px;
@@ -264,15 +273,26 @@ form input {
     padding: 0 100px;
 }
 
-a:link, a:visited, a:active{
-    color: #fff;
-    text-decoration: none;    
+table td{
+    padding: 15px;
 }
 
-footer {
+table h3 {
+    font-size: 150%;
+}
+
+table p {
+    font-size: 80%;
+}
+
+.redes {
     background-color: #222222;
-    color: #fff;
     bottom: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
     text-align: center;
 }
 
@@ -280,13 +300,18 @@ footer ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0%;
 }
 
 footer ul li {
     font-weight: bold;
     padding-left: 15px;
 }
+
+a:link, a:visited, a:active{
+    color: #fff;
+    text-decoration: none;    
+}
+
 
 
 
