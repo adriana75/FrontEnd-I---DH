@@ -75,21 +75,21 @@ option {
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 100px;
-    top: 400px;
+    right: 10px;
+    top: 260px;
 }
 
 .informacion-banner div p:first-child{
     background-color: #fff;
     border-radius: 5px;
     color: #3C2313;
-    font-size: 70px;
+    font-size: 50px;
     padding: 10px;
 }
 
 .informacion-banner div p:nth-child(2) {
     color: #3C2313;
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -100,7 +100,7 @@ option {
     color: #fff;
     font-size: 25px;
     height: 80px;
-    width: 300px;
+    width: 250px;
 }
 
 main {
